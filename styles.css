@@ -1,0 +1,82 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('mikustage.jpeg');
+        font-family: monospace;
+        color: white;
+    }
+    
+    body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.85);
+        z-index: -1;
+    }
+    
+    .container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .left-section {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .right-section {
+        text-align: left;
+        float: right;
+    }
+    
+    h1 {
+        font-size: 4em;
+        margin: 20px 0;
+    }
+    
+    p {
+        font-size: 1.2em;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    section {
+        margin: 30px 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    
+    pre {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        text-align: left;
+        max-width: 410px;
+        margin: 0 auto;
+        border-radius: 8px;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        font-size: 1em;
+    }
+
+    a:visited {
+        color: lightblue;
+    }
+
+    /* #pseudocode {
+        color: aquamarine;
+    } */
+    
