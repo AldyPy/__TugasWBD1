@@ -4,7 +4,7 @@ body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url('mikustage.jpeg');
+        background-image: url('sayo.jpg');
         font-family: monospace;
         color: white;
     }
@@ -16,7 +16,7 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: rgba(0, 0, 0, 0.86);
         z-index: -1;
     }
     
